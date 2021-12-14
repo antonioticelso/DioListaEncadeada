@@ -4,7 +4,8 @@ public class Application {
 
     public static void main(String[] args) {
 
-        ListaEncadeada<String> minhaListaEncadeada = new ListaEncadeada<>();
+
+        ListaEncadeada<String> minhaListaEncadeada = new ListaEncadeada<String>();
 
         minhaListaEncadeada.add("teste1");
         minhaListaEncadeada.add("teste2");
