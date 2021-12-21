@@ -1,4 +1,4 @@
-package br.com.digitalinnovation;
+package br.com.digitalinnovation.listaEncadeada;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -18,22 +18,6 @@ public class No<T> {
         this.conteudo = conteudo;
         this.proximoNo = proximoNo;
     }
-
-//    public T getConteudo() {
-//        return conteudo;
-//    }
-//
-//    public void setConteudo(T conteudo) {
-//        this.conteudo = conteudo;
-//    }
-//
-//    public No getProximoNo() {
-//        return proximoNo;
-//    }
-//
-//    public void setProximoNo(No proximoNo) {
-//        this.proximoNo = proximoNo;
-//    }
 
     @Override
     public String toString() {

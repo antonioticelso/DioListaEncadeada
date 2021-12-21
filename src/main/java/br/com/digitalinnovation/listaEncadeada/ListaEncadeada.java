@@ -1,4 +1,4 @@
-package br.com.digitalinnovation;
+package br.com.digitalinnovation.listaEncadeada;
 
 public class ListaEncadeada<T> {
 

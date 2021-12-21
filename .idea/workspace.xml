@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f56a6527-1557-43ca-9b66-7c189a5673e5" name="Changes" comment="refactor: Alteraçao e inclusao de dependencias no pom do projeto" />
+    <list default="true" id="f56a6527-1557-43ca-9b66-7c189a5673e5" name="Changes" comment="refactor: Alteraçao de projeto na estrutura de pastas">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br.com.digitalinnovation/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalinnovation/listaEncadeada/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br.com.digitalinnovation/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalinnovation/listaEncadeada/ListaEncadeada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br.com.digitalinnovation/No.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalinnovation/listaEncadeada/No.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br.com.digitalinnovation/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br.com.digitalinnovation/ListaEncadeada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br.com.digitalinnovation/No.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -49,11 +60,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.digitalinnovation.Application" />
+      <option name="MAIN_CLASS_NAME" value="br.com.digitalinnovation.listaEncadeada.Application" />
       <module name="DioListaEncadeada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.digitalinnovation.*" />
+          <option name="PATTERN" value="br.com.digitalinnovation.lista.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,6 +88,7 @@
       <updated>1639494892393</updated>
       <workItem from="1639494897355" duration="1870000" />
       <workItem from="1639497929487" duration="1722000" />
+      <workItem from="1640045466240" duration="1634000" />
     </task>
     <task id="LOCAL-00001" summary="creat: Criaçao do Novo Projeto de Nos com Lista Encadeada">
       <created>1639495437872</created>
@@ -99,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639498749981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: Alteraçao e inclusao de dependencias no pom do projeto">
+      <created>1640045878089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640045878089</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creat: Criaçao do Novo Projeto de Nos com Lista Encadeada" />
     <MESSAGE value="refactor: Alteraçao e inclusao de dependencias no pom do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Alteraçao e inclusao de dependencias no pom do projeto" />
+    <MESSAGE value="refactor: Alteraçao de projeto na estrutura de pastas" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Alteraçao de projeto na estrutura de pastas" />
   </component>
 </project>
