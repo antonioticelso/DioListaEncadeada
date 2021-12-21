@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f56a6527-1557-43ca-9b66-7c189a5673e5" name="Changes" comment="refactor: Alteraçao de projeto na estrutura de pastas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalinnovation/listaCircular/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalinnovation/listaCircular/ListaCircular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalinnovation/listaCircular/No.java" afterDir="false" />
+    <list default="true" id="f56a6527-1557-43ca-9b66-7c189a5673e5" name="Changes" comment="refactor: Atualizaçao do README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/digitalinnovation/ListaEncadeada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/digitalinnovation/No.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/digitalinnovation/listaEncadeada/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/digitalinnovation/listaEncadeada/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/digitalinnovation/listaEncadeada/ListaEncadeada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/digitalinnovation/listaEncadeada/ListaEncadeada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/digitalinnovation/listaEncadeada/No.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/digitalinnovation/listaEncadeada/No.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +61,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Application (1)">
-    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.digitalinnovation.listaCircular.Application" />
       <module name="DioListaEncadeada" />
       <extension name="coverage">
@@ -112,7 +104,8 @@
       <updated>1639494892393</updated>
       <workItem from="1639494897355" duration="1870000" />
       <workItem from="1639497929487" duration="1722000" />
-      <workItem from="1640045466240" duration="2543000" />
+      <workItem from="1640045466240" duration="3330000" />
+      <workItem from="1640086807294" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="creat: Criaçao do Novo Projeto de Nos com Lista Encadeada">
       <created>1639495437872</created>
@@ -149,7 +142,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640049636523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor: Alteraçao de projeto na estrutura de pastas">
+      <created>1640082972948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640082972948</updated>
+    </task>
+    <task id="LOCAL-00007" summary="creat: Criaçao da estrutura de lista circular">
+      <created>1640083019724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640083019724</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor: Atualizaçao do README">
+      <created>1640087200003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640087200003</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +184,8 @@
     <MESSAGE value="creat: Criaçao do Novo Projeto de Nos com Lista Encadeada" />
     <MESSAGE value="refactor: Alteraçao e inclusao de dependencias no pom do projeto" />
     <MESSAGE value="refactor: Alteraçao de projeto na estrutura de pastas" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Alteraçao de projeto na estrutura de pastas" />
+    <MESSAGE value="creat: Criaçao da estrutura de lista circular" />
+    <MESSAGE value="refactor: Atualizaçao do README" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Atualizaçao do README" />
   </component>
 </project>

@@ -5,12 +5,12 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class No<T> {
+public class NoCircular<T> {
 
     private T conteudo;
-    private No<T> noProximo;
+    private NoCircular<T> noProximo;
 
-    public No(T conteudo) {
+    public NoCircular(T conteudo) {
         this.conteudo = conteudo;
     }
 

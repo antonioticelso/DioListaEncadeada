@@ -2,8 +2,8 @@ package br.com.digitalinnovation.listaCircular;
 
 public class ListaCircular<T> {
 
-    private No<T> cabeca;
-    private No<T> cauda;
+    private NoCircular<T> cabeca;
+    private NoCircular<T> cauda;
     private int tamanhoLista;
 
     public ListaCircular() {
@@ -13,7 +13,7 @@ public class ListaCircular<T> {
     }
 
     public void add(T conteudo){
-        No<T> novoNo = new No<>(conteudo);
+        NoCircular<T> novoNo = new NoCircular<>(conteudo);
         if(tamanhoLista == 0){
             this.cabeca = novoNo;
             this.cauda = this.cabeca;
@@ -30,7 +30,7 @@ public class ListaCircular<T> {
         if(index >= this.tamanhoLista)
             throw new IndexOutOfBoundsException("O índice maior que o tamanho da lista");
 
-        No<T> noAuxiliar = cauda;
+        NoCircular<T> noAuxiliar = cauda;
         if(index == 0){ //estou na cauda
             this.cauda = this.cauda.getNoProximo();
             this.cabeca.setNoProximo(cauda);
@@ -49,7 +49,7 @@ public class ListaCircular<T> {
         return getNo(index).getConteudo();
     }
 
-    private No<T> getNo(int index){
+    private NoCircular<T> getNo(int index){
         if(isEmpty())
             throw new IndexOutOfBoundsException("A lista está vazia");
 
@@ -57,7 +57,7 @@ public class ListaCircular<T> {
             return this.cauda;
         }
 
-        No<T> noAuxiliar = this.cauda;
+        NoCircular<T> noAuxiliar = this.cauda;
         for(int i = 0; (i < index) && (noAuxiliar != null); i++){
             noAuxiliar = noAuxiliar.getNoProximo();
         }
@@ -75,7 +75,7 @@ public class ListaCircular<T> {
     @Override
     public String toString() {
         String strRetorno = "";
-        No<T> noAuxiliar = this.cauda;
+        NoCircular<T> noAuxiliar = this.cauda;
         for (int i = 0; i < size(); i++) {
             strRetorno += "[No{conteudo=" + noAuxiliar.getConteudo() + "}]--->";
             noAuxiliar = noAuxiliar.getNoProximo();
